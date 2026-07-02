@@ -34,9 +34,9 @@ We evaluated our models on a hidden Test Set to choose the production champion f
 
 | Model Name | Overall Accuracy <br>*(Right vs. Wrong)* | Precision <br>*(Reliability of Approvals)* | Recall <br>*(Ability to Catch Good Loans)* | F1-Score <br>*(The Balance Score)* |
 | :--- | :---: | :---: | :---: | :---: |
-| **Model 1: Decision Tree** <br>(Simple Baseline) | 84.57% | 84.81% | 92.52% | 88.50% |
-| **Model 2: Random Forest** <br>(Team of 500 Trees) | **85.11%** | **85.10%** | **93.09%** | **88.91%** |
-| **Model 3: XGBoost** <br>(Error-Fixer Champion) | **85.11%** | **85.10%** | **93.09%** | **88.91%** |
+| **Model 1: Decision Tree** | 84.57% | 84.81% | 92.52% | 88.50% |
+| **Model 2: Random Forest** | **85.11%** | **85.10%** | **93.09%** | **88.91%** |
+| **Model 3: XGBoost** | **85.11%** | **85.10%** | **93.09%** | **88.91%** |
 
 ### Key Takeaways:
 * **No Overfitting:** The gap between training and testing accuracy for all models stayed below 1%, proving our systems generalize perfectly to brand-new customer profiles.
