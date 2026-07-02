@@ -32,7 +32,7 @@ To help our models spot risk like a real credit analyst, we engineered 5 high-im
 
 We evaluated our models on a hidden Test Set to choose the production champion for our lending platform:
 
-| Model Name | Overall Accuracy <br>*(Right vs. Wrong)* | Precision <br>*(Reliability of Approvals)* | Recall <br>*(Ability to Catch Good Loans)* | F1-Score <br>*(The Balance Score)* |
+| Model Name | Overall Accuracy <br>*(Right vs Wrong)* | Precision <br>*(Reliability of Approvals)* | Recall <br>*(Ability to Catch Good Loans)* | F1-Score <br>*(The Balance Score)* |
 | :--- | :---: | :---: | :---: | :---: |
 | **Model 1: Decision Tree** | 84.57% | 84.81% | 92.52% | 88.50% |
 | **Model 2: Random Forest** | **85.11%** | **85.10%** | **93.09%** | **88.91%** |
